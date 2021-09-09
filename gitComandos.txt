@@ -7,4 +7,8 @@ voltar pasta: cd ..
 Criar pasta: mkdir nomedapasta
 Iniciar repositório: git init
 Acessar pagina: cd nomedapasta
-Enviar conteudo para o git usa COMIT
+Enviar conteudo para o git usa COMMIT
+Verificar alterações na pasta: git status
+*Untracked/monitorar files: git add -A
+COMMIT: git commit -m "colocar mensagem.."
+Ver todos os commit: git log
