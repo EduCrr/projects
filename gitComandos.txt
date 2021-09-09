@@ -34,6 +34,13 @@ Detalhar o nome do arquivo que foi mudado: git diff --name-only
 Voltar estado original do conteudo de algum arquivo: git checkout HEAD -- nomedapasta
 git checkout -> voltar informaçoes
 
-Conectando repositório local ao remoto
+Conectando repositório local ao remoto (rever aula)
+
 gerar chave para o git para adicionar para o site do github
 $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+git remote add origin https://github.com/EduCrr/educrr.git
+git remote
+git push -u origin master
+
+Fazendo alterações no repositório remoto
+
