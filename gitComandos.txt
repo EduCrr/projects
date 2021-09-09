@@ -30,4 +30,6 @@ Trocar de branch: git checkout nomedobranch
 Diferença entre arquivos
 
 Detalhar o que foi feito no arquivo: git diff
-Detalhar o nome do arquivo que foi feito mudado: git diff --name-only
+Detalhar o nome do arquivo que foi mudado: git diff --name-only
+Voltar estado original do conteudo de algum arquivo: git checkout HEAD -- nomedapasta
+git checkout -> voltar informaçoes
