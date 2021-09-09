@@ -1,14 +1,19 @@
 GIT
 Comando básicos
 
+INTRO
 Navegar entre páginas: cd
 Ler arquivos dentro das pastas: dir
 voltar pasta: cd ..
 Criar pasta: mkdir nomedapasta
 Iniciar repositório: git init
 Acessar pagina: cd nomedapasta
+
+GIT BASE
 Enviar conteudo para o git usa COMMIT
-Verificar alterações na pasta: git status
-*Untracked/monitorar files: git add -A
-COMMIT: git commit -m "colocar mensagem.."
-Ver todos os commit: git log
+1) Verificar alterações na pasta: git status
+2) *Untracked/monitorar files: git add -A
+3) COMMIT: git commit -m "colocar mensagem.."
+4) Ver todos os commits: git log
+
+GIT DELETE/REVERTER
