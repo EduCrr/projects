@@ -12,8 +12,9 @@ Acessar pagina: cd nomedapasta
 GIT BASE
 Enviar conteudo para o git usa COMMIT
 1) Verificar alterações na pasta: git status
-2) *Untracked/monitorar files: git add -A
+2) *Untracked/monitorar arquivos criados/editados: git add -A
 3) COMMIT: git commit -m "colocar mensagem.."
-4) Ver todos os commits: git log
+4) Ver/historicos todos os commits: git log
 
 GIT DELETE/REVERTER
+Mostra a pasta onde vc está: git branch
