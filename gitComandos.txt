@@ -33,3 +33,7 @@ Detalhar o que foi feito no arquivo: git diff
 Detalhar o nome do arquivo que foi mudado: git diff --name-only
 Voltar estado original do conteudo de algum arquivo: git checkout HEAD -- nomedapasta
 git checkout -> voltar informaçoes
+
+Conectando repositório local ao remoto
+gerar chave para o git para adicionar para o site do github
+$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
