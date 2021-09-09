@@ -1,0 +1,10 @@
+GIT
+Comando básicos
+
+Navegar entre páginas: cd
+Ler arquivos dentro das pastas: dir
+voltar pasta: cd ..
+Criar pasta: mkdir nomedapasta
+Iniciar repositório: git init
+Acessar pagina: cd nomedapasta
+Enviar conteudo para o git usa COMIT
