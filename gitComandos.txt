@@ -26,3 +26,7 @@ Mostra a pasta onde vc está: git branch
 Trabalhando com diferentes Branches
 Criar novo branch: git branch nomedobranch
 Trocar de branch: git checkout nomedobranch
+
+Diferença entre arquivos
+
+Detalhar o que foi feito no arquivo: git diff
