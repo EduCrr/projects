@@ -43,4 +43,5 @@ git remote
 git push -u origin master
 
 Fazendo alterações no repositório remoto
-
+git commit -am "mensagem...."
+git push origin master 
