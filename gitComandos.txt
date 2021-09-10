@@ -50,3 +50,4 @@ Ignorando arquivos do repositório (gitignore)
     criar o arquivo .gitignore para escolher quais arquivos devem ser ignorados *.txt || senha.txt
 
 Revertendo sem perder o código (Revert)
+    
