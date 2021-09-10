@@ -2,49 +2,51 @@ GIT
 Comando básicos
 
 INTRO
-Navegar entre páginas: cd
-Ler arquivos dentro das pastas: dir
-voltar pasta: cd ..
-Criar pasta: mkdir nomedapasta
-Iniciar repositório: git init
-Acessar pagina: cd nomedapasta
+    Navegar entre páginas: cd
+    Ler arquivos dentro das pastas: dir
+    voltar pasta: cd ..
+    Criar pasta: mkdir nomedapasta
+    Iniciar repositório: git init
+    Acessar pagina: cd nomedapasta
 
 GIT BASE
-Enviar conteudo para o git usa COMMIT
-1) Verificar alterações na pasta: git status
-2) *Untracked/monitorar arquivos criados/editados: git add -A
-3) COMMIT: git commit -m "colocar mensagem.."
-4) Ver/historicos todos os commits: git log
-** Fazer o 2/3 numa vez só: git commit -am "mensagem...."
+    Enviar conteudo para o git usa COMMIT
+    1) Verificar alterações na pasta: git status
+    2) *Untracked/monitorar arquivos criados/editados: git add -A
+    3) COMMIT: git commit -m "colocar mensagem.."
+    4) Ver/historicos todos os commits: git log
+    ** Fazer o 2/3 numa vez só: git commit -am "mensagem...."
 
 GIT DELETE/REVERTER
-Mostra a pasta onde vc está: git branch
-1) Ver/historicos todos os commits: git log
-2) Voltar ao estado antes de dar COMMIT ele n apaga os arquivos: git reset --soft ||  --mixed -> precisa dar o git add -A
-3) Apagar alterações e voltar para algum estado: git reset --hard "colar o id COMMIT"
+    Mostra a branch onde vc está: git branch
+    1) Ver/historicos todos os commits: git log
+    2) Voltar ao estado antes de dar COMMIT ele n apaga os arquivos: git reset --soft ||  --mixed -> precisa dar o git add -A
+    3) Apagar alterações e voltar para algum estado: git reset --hard "colar o id COMMIT"
 
-Trabalhando com diferentes Branches
-Criar novo branch: git branch nomedobranch
-Trocar de branch: git checkout nomedobranch
+    Trabalhando com diferentes Branches
+    Criar novo branch: git branch nomedobranch
+    Trocar de branch: git checkout nomedobranch
 
 Diferença entre arquivos
 
-Detalhar o que foi feito no arquivo: git diff
-Detalhar o nome do arquivo que foi mudado: git diff --name-only
-Voltar estado original do conteudo de algum arquivo: git checkout HEAD -- nomedapasta
-git checkout -> voltar informaçoes
+    Detalhar o que foi feito no arquivo: git diff
+    Detalhar o nome do arquivo que foi mudado: git diff --name-only
+    Voltar estado original do conteudo de algum arquivo: git checkout HEAD -- nomedapasta
+    git checkout -> voltar informaçoes
 
 Conectando repositório local ao remoto (rever aula)
 
-gerar chave para o git para adicionar para o site do github: $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
-fazer ligação entre o github e minha pasta: git remote add origin https://github.com/EduCrr/educrr.git
-git remote -v (fetch) pega do github para o pc (push) pega da pasta do pc e leva para o github
-git push -u origin master 
+    gerar chave para o git para adicionar para o site do github: $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+    fazer ligação entre o github e minha pasta: git remote add origin https://github.com/EduCrr/educrr.git
+    git remote -v (fetch) pega do github para o pc (push) pega da pasta do pc e leva para o github
+    git push -u origin master 
 
 Fazendo alterações no repositório remoto
 
-git commit -am "mensagem...."
-git push origin master 
+    git commit -am "mensagem...."
+    git push origin master 
 
 Ignorando arquivos do repositório (gitignore)
-criar o arquivo .gitignore para escolher quais arquivos devem ser ignorados
+    criar o arquivo .gitignore para escolher quais arquivos devem ser ignorados *.txt || senha.txt
+
+Revertendo sem perder o código (Revert)
