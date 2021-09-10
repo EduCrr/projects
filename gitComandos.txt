@@ -36,12 +36,15 @@ git checkout -> voltar informaçoes
 
 Conectando repositório local ao remoto (rever aula)
 
-gerar chave para o git para adicionar para o site do github
-$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
-git remote add origin https://github.com/EduCrr/educrr.git
-git remote
-git push -u origin master
+gerar chave para o git para adicionar para o site do github: $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+fazer ligação entre o github e minha pasta: git remote add origin https://github.com/EduCrr/educrr.git
+git remote -v (fetch) pega do github para o pc (push) pega da pasta do pc e leva para o github
+git push -u origin master 
 
 Fazendo alterações no repositório remoto
+
 git commit -am "mensagem...."
 git push origin master 
+
+Ignorando arquivos do repositório (gitignore)
+criar o arquivo .gitignore para escolher quais arquivos devem ser ignorados
