@@ -1,4 +1,1 @@
-teste;
-funciona;
-
-bug;
+sem bug
