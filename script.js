@@ -1,3 +1,3 @@
 sem bug
 
-linha que gerou o bug
+agora eu tirei o bug
