@@ -55,4 +55,20 @@ Revertendo sem perder o código (Revert)
 
 
 Deletando branches locais e remotos
+    Add outra branch remoto: git checkout teste -->  git push origin teste
+    deletar branch remoto(github): git push origin :nomedobranch
+    deletar branch local(pc): git branch -D nomedobranch
     
+
+Puxando alterações de outras pessoas (pull)
+    antes dar o pull e depois o push
+    git pull origin master
+
+
+Clonando repositórios remotos
+    git clone https://github.com/EduCrr/educrr.git
+
+
+Contribuindo com outros repositórios (fork / pull request)
+    git branch ver o nome do branch
+    git remote -v ver se é origin
