@@ -51,4 +51,4 @@ Ignorando arquivos do repositório (gitignore)
 
 Revertendo sem perder o código (Revert)
     git log pega id do commit
-    git revert --no-edit (id do commit)
+    git revert --no-edit id do commit
